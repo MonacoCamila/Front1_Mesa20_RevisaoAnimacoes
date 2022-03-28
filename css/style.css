@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+
+html{
+    font-size: 18px;
+}
+
+:root{
+    --primary-color: #222222;
+    --secondary-color: #d01418;
+    --background-color: #f3f3f3;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 150px;
+    width: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px 0 30px;
+    font-size: 0.7rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+a{ 
+    text-decoration: none;
+}
+
+li a {
+    color:white
+}
+
+ul li:last-child{
+    margin-left: 20px;
+
+}
+
+.banner{
+   background-image: url('../img/img\ 1.png');
+   height: 512px;
+   background-repeat: no repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap:15px;
+
+}
+
+.banner-titulo{
+    color:white;
+    font-size: 1.1rem;
+}
+
+.banner-titulo::before{
+    content: '25% ';
+    color: red;
+    
+}
+
+.banner-botao{
+    width: 220px;
+    height: 60px;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.produtosdestaque{
+    width: 100%;
+    margin: 10px 0 10px 0;
+    }
+
+.produtos-destaque{
+    text-align: center;
+    }
+
+.containerprodutos{
+    width: 100%;
+    background-color: var(--background-color);
+    border: 3px solid red;
+    }
+
+.card{
+    width: 100%;
+    border: 1px solid red;
+    background-color: white;
+    height: 322px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-conteudo{
+    width: 100%;
+    border: 1px solid red;
+    height: 60%;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    
+
+    }
+.card-img{
+    transform: scale(0.9);
+}
+
+
+
+
+
+
+
+
+   
+
+
+
+
